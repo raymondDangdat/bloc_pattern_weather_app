@@ -152,7 +152,7 @@ class ShowWeather extends StatelessWidget {
               SizedBox(height: 10,),
 
               Text(weather.getTemp.round().toString()+"C",style: TextStyle(color: Colors.white70, fontSize: 50),),
-              Text("Temprature",style: TextStyle(color: Colors.white70, fontSize: 14),),
+              Text("Temperature",style: TextStyle(color: Colors.white70, fontSize: 14),),
 
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -160,13 +160,13 @@ class ShowWeather extends StatelessWidget {
                   Column(
                     children: <Widget>[
                       Text(weather.getMinTemp.round().toString()+"C",style: TextStyle(color: Colors.white70, fontSize: 30),),
-                      Text("Min Temprature",style: TextStyle(color: Colors.white70, fontSize: 14),),
+                      Text("Min Temperature",style: TextStyle(color: Colors.white70, fontSize: 14),),
                     ],
                   ),
                   Column(
                     children: <Widget>[
                       Text(weather.getMaxTemp.round().toString()+"C",style: TextStyle(color: Colors.white70, fontSize: 30),),
-                      Text("Max Temprature",style: TextStyle(color: Colors.white70, fontSize: 14),),
+                      Text("Max Temperature",style: TextStyle(color: Colors.white70, fontSize: 14),),
                     ],
                   ),
                 ],
